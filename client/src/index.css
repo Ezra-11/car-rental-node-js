@@ -5,9 +5,9 @@
   font-family: "Outfit", sans-serif;
 }
 
-@theme{
-  --color-primary: #2563EB;
-  --color-primary-dull: #1F58D8;
-  --color-light: #F1F5F9;
-  --color-borderColor: #3c4c7d2;
+@theme {
+  --color-primary: #0F766E;         /* Deep teal */
+  --color-primary-dull: #115E59;    /* Darker muted teal */
+  --color-light: #E2E8F0;           /* Soft neutral light for background */
+  --color-borderColor: #334155;     /* Slate blue-gray for borders */
 }
