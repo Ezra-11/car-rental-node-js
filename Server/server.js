@@ -1,4 +1,4 @@
-import express from 'express';
+/*import express from 'express';
 import 'dotenv/config';
 import cors from 'cors'; 
 import connectDB from './configs/db.js';
@@ -21,6 +21,19 @@ app.use('/api/user',userRouter);
 app.use('/api/owner',ownerRouter);
 app.use("/api/bookings", bookingRouter);
 
+import app from "./app.js";
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT,()=>console.log(`Server running on port ${PORT}`))
+*/
+
+// twals in case i need to delete 
+
+import app from "../app.js";
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Server running on http://localhost:${port}`));
+
+
+
+

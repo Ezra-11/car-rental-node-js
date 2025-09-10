@@ -1,44 +1,33 @@
 {
-  "name": "server",
+  "name": "car-rental-node-js",
   "version": "1.0.0",
-  "main": "server.js",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "server": "nodemon server.js",
     "start": "node server.js",
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^17.0.1",
-    "express": "^5.1.0",
-    "imagekit": "^6.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.16.1",
-    "multer": "^2.0.1"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.28.4",
     "@babel/preset-env": "^7.28.3",
     "babel-jest": "^30.1.2",
     "jest": "^30.1.3",
+    "mongodb-memory-server": "^10.2.0",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.4"
   },
   "jest": {
     "testEnvironment": "node",
-     "roots": [
+    "roots": [
       "<rootDir>/tests"
     ],
-    "testMatch": ["**/__tests__/**/*.js"]
-
+    "testMatch": [
+      "**/*.test.js"
+    ]
   }
-
 }
-
